@@ -137,7 +137,7 @@ If the cluster becomes stuck in upgrading, restart the `system-upgrade-controlle
 
 To prevent issues when upgrading, the [Kubernetes upgrade best practices](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/) should be followed.
 
-### Annotating Imported Clusters
+# Annotating Imported Clusters
 
 For all types of imported Kubernetes clusters except for K3s Kubernetes clusters, Rancher doesn't have any information about how the cluster is provisioned or configured.
 
